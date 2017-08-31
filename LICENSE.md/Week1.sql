@@ -41,6 +41,8 @@ ON flights.tailnum = planes.tailnum
 WHERE (flights.month = 7) AND (flights.day = 5) AND (flights.year = 2013)
 GROUP BY planes.manufacturer;
 
+#The left outer join displays NULL, the inner join does not
+
 
 #4 How many flights to LAX  by airline using what model plane and manufacturer in Jan. 2013?
 SELECT 
